@@ -5,7 +5,7 @@ function criarCard(titulo, descricao, imagem) {
     const card = document.createElement('div');
     card.classList.add('card');
 
-    // 🔥 IMAGEM (com wrapper)
+    // IMAGEM com wrapper
     if(imagem){
         const wrapper = document.createElement('div');
         wrapper.classList.add('card-img-wrapper');
