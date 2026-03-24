@@ -33,6 +33,6 @@ function salvarPost(titulo, descricao, imagem){
 
     alert('Post criado com sucesso!');
 
-    // 🔥 limpa formulário
+    // limpa formulário
     document.getElementById('post-form').reset();
 }
